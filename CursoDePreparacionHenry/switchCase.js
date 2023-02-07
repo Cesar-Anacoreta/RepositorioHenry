@@ -16,3 +16,6 @@ switch (fruta){
     default:
         console.log('Eso si no tenemos, pida otra cosa por favor...');
 }
+
+/*En el caso de la etiqueta "break" sirve para romper el bucle una vez que se lee cumple alguna de las condiciones en las cuales
+este contenido este operador */
