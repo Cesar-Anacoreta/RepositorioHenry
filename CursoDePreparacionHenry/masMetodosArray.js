@@ -46,3 +46,33 @@ var masUno = numeros.map((num) => {
     return num + 1;
 });
 console.log (masUno);
+
+
+console.log('Ejemplo 3: Uso de bucle FOR en combinacion con ARRAY');
+
+// Se requiere una funcion que al recibir un 'STRING' nos indique que la palabra contiene la letra P, para eso...
+
+function findP (string){
+    var letras = string.split ('');
+
+    for (let i = 0; i < letras.length; i++){
+        if (letras[i] === 'p'){
+            console.log ('Si contiene p');
+        }
+    }
+}
+
+findP('JavaScript');
+findP('Henry');
+findP('penal');
+
+/* Ahora usaremos un ciclo while para ingresar valores a un array, ejemplo */
+
+console.log ('Ejemplo 4: Uso de ciclo while en un array');
+
+var arr = [];
+
+while (arr.length < 12){
+    arr.push('Booom');
+}
+console.log(arr);
