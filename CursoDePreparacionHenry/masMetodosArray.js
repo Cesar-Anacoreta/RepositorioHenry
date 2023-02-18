@@ -72,7 +72,7 @@ console.log ('Ejemplo 4: Uso de ciclo while en un array');
 
 var arr = [];
 
-while (arr.length < 12){
+/*while (arr.length < ){
     arr.push('Booom');
 }
-console.log(arr);
+console.log(arr);*/
