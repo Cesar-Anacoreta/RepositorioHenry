@@ -24,7 +24,7 @@ var persona = {nombre:'Lucas', edad: 26, estudios: {esProgramador: true}};
 console.log(persona);
 // Hasta este punto el objeto ha almacenado los datos de la persona llamada lucas, pero vamos a modificar la información:
 
-// Leer datos del array, para esto solo hace falta direccionar el datro que queremos observar, por ejemplo:
+// Leer datos del array, para esto solo hace falta direccionar el dato que queremos observar, por ejemplo:
 
 console.log (persona.nombre); // Nota: El direccionamiento se puede hacer mediante DOT (.) y KEY {}
 
